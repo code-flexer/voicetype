@@ -1,0 +1,27 @@
+# Local builds and generated packages
+.build/
+build/
+dist/
+payload/
+imports/
+manifest.json
+*.egg-info/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+# Private runtime data
+recordings/
+transcripts/
+logs/
+backups/
+*.log
